@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --blue:rgba(45, 115, 220, 1);
+}
+body{
+    background-color:#5B86E5 ;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width:70% ;
+    height:80vh ;
+    margin-top:5% ;
+    display: flex;
+    display: grid;
+    grid-template-columns:31% 69% ;
+    border:solid 1px #DBDBDB ;
+}
+.container .info {
+    width:100% ;
+    background-color: #6B93E8;
+    padding: 10px;
+    padding-left:50px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container .info h2{
+    color: white;
+    font-size:30px ;
+    font-weight: 500;
+}
+.container .info h3{
+    color: white;
+    width:200px ;
+    margin-top:20px ;
+    font-weight: 400;
+}
+.container .info img{
+    width:230px ;
+    margin-top:50px ;
+
+}
+.container .form{
+    padding:20px ;
+    background-color: white;
+    border-top-left-radius:20px ;
+    border-bottom-left-radius:20px ;
+    padding-left:200px ;
+    margin-left: -10px;
+}
+.container .form .title{
+    margin-top:100px ;
+}
+.container .form .title h2{
+    font-size:25px ;
+    font-weight: 500;
+} 
+.container .form .title div{
+    margin-top:20px ;
+    display: flex;
+    gap:40px ;
+
+}
+.container .form .title div a{
+    text-decoration:none;
+    color: black;
+    border:solid 1px var(--blue)  ;
+    padding:10px 20px ;
+    border-radius:10px ;
+    font-size:15px ;
+}
+.container .form .title div a:hover{
+    background-color: var(--blue);
+    color: white;
+    border:solid 1px white ;
+}
+.container .form .or{
+    margin-top:20px ;
+    display: flex;
+    padding-top:20px ;
+    width:400px ;
+    align-items: center;
+    justify-content: center;
+    gap:20px ;
+}
+.container .form .or span{
+    align-items: center;
+}
+.container .form form{
+    margin-top:20px ;
+}
+.container .form div input{
+    width:415px ;
+    padding:10px ;
+    margin-top:20px ;
+    border: none;
+    outline: none;
+    border-bottom:solid 1px black ;
+}
+.container .form div button{
+    width:400px ;
+    display: block;
+    margin-left:10px;
+    margin-top:20px ;
+    padding:12px 40px ;
+    background-color: var(--blue);
+    border: none;
+    color: white;
+    border-radius:10px ;
+    cursor: pointer;
+}
+.container .form div button:hover{
+    background-color: white;
+    color:var(--blue) ;
+    border:solid 1px var(--blue) ;
+}
+.container .form div p{
+    font-size:15px ;
+    display: flex;
+    align-items: center;
+    margin-top:20px ;
+    margin-left:90px ;
+}
+.container .form div p a{
+    text-decoration: none;
+    color: var(--blue);
+}

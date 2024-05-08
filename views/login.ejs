@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <h2>Sign-in</h2>
+            <h3>to get the appropraite Medicine</h3>
+            <img src="/bottle of pills (1).png" alt="">
+
+        </div>
+        <div class="form">
+            <div class="title">
+                <h2>Sign-in</h2> 
+            </div>
+            <form action="/login" method="post"> 
+                <div>
+                    <input type="text" id="name" name="username" placeholder="Name" required autocomplete="off">
+                </div>
+                <div>
+                    <input type="password"  name="password" placeholder="Password" id="password" required>
+                </div>
+
+                <div>
+                    <button class="submit" type="submit">Login</button>
+                </div>
+
+                <div>
+                    <p>Don't have an account? <a href="/signup">SignUp Here</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
